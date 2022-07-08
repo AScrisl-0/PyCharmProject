@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='images/about-bg.jpg') }}')">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>About Me</h1>
+              <span class="subheading">乔布斯说，“我觉得每个人都应该学习一门编程语言。
+                学习编程教你如何思考.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>
+            粤嵌创立于2005年，是全球性规模经营的IT技术产品研发及教育服务机构，
+            粤嵌已拥有IT技术培训、教学仪器、数字医疗系统、动漫游戏机产品四大品牌产业。
+            公司已于 2016 年登陆新三板（证券代码：839909） 正式挂牌上市。
+            公司经过多年的发展，秉承“行业引领，齐商共赢，开拓创新，服务诚信”的核心经营理念，
+            为业界提供全面的IT技术服务和产品，在发展过程中，粤嵌形成了在IT技术自主创新方面的优势和能力，
+            已成为在国内外IT技术领域的知名企业。
+          </p>
+        </div>
+      </div>
+    </div>
+{% endblock %}
